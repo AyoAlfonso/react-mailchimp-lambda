@@ -1,0 +1,40 @@
+{
+  "name": "react-mailchimp-lambda-subscription-app",
+  "version": "0.0.0",
+  "description": "A simple vanilla form for adding people to mailchimp.",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "final-form": "^4.18.5",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-final-form": "^6.3.0",
+    "react-redux": "5.0.6",
+    "redux": "3.6.0",
+    "redux-form": "7.4.0",
+    "redux-form-website-template": "0.0.41"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync build/ s3://mailchimpreact"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
