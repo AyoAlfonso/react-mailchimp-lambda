@@ -77,6 +77,5 @@ is added to make sure that when working on a team there is no confusion on deplo
 
 5.There will be  unknowing returning users, being able to report to returning user that they have registered before will be helpful.
 
-6. 
 
 **PS: You will notice most of my assumptions are best practices I have learned and how to make working with other developers or colleagues or the workflow itself easy.**
