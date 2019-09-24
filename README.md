@@ -55,7 +55,7 @@ With the link you can check out the lambda function and the AWS API Gatweway and
 
 # 3. Log into Mailchimp account
 
-    username: joshayo
+    username: Joshalfonso
     password: papatsuckS1#
 
 Estimate based on my :  It took about **3 hours 50 mins**  to get this done excluding the hours for setting up, and deployment time to s3 the remote bucket.
